@@ -1,7 +1,8 @@
 # Secure Digital Wallet Using Homomorphic Encryption
 
 ## Overview
-A privacy-preserving digital wallet system enabling encrypted financial transactions using Paillier Homomorphic Encryption.
+# Homomorphic Encryption Digital Wallet
+A privacy-preserving financial transaction system implementing Paillier Homomorphic Encryption to perform secure computations on encrypted balances.
 
 ## Key Features
 - Encrypted balance storage
@@ -12,8 +13,13 @@ A privacy-preserving digital wallet system enabling encrypted financial transact
 ## Architecture
 Explain auth.py, server.py, client.py etc.
 
+
 ## How It Works
-Explain key generation → encryption → computation → decryption
+
+1. Key generation using Paillier cryptosystem
+2. Client encrypts transaction amounts
+3. Server performs homomorphic addition on ciphertext
+4. Decryption reveals updated balance
 
 ## Tech Stack
 - Python
