@@ -1,4 +1,4 @@
-# Homomorphic Encryption Digital Wallet
+# Secure Digital Wallet Using Homomorphic Encryption
 
 ## Overview
 A privacy-preserving digital wallet system enabling encrypted financial transactions using Paillier Homomorphic Encryption.
